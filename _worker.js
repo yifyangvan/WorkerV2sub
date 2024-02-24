@@ -1,13 +1,13 @@
 // 设置优选地址，不带端口号默认8443，不支持非TLS订阅生成
 let addresses = [
-	'www.visa.com.hk:2096#假装是香港',
-	'icook.tw:2053#假装是台湾',
-	'cloudflare.cfgo.cc#真的是美国'
+	'www.yifcmz.v6.navy#cmzUS',
+	'www.yifcc.rr.nu#yifccUS',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt' //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
+	'https://raw.githubusercontent.com/yifyangvan/WorkerVless2sub/main/yifcc.txt'//可参考内容格式 自行搭建。
 ];
 
 let DLS = 4;//速度下限
@@ -23,12 +23,18 @@ let edgetunnel = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [
 	'cdn.xn--b6gac.eu.org',
+	'23.162.136.169',
+	'103.200.112.108',
+	'198.46.200.132',
+	'23.94.212.4',
 	'cdn-all.xn--b6gac.eu.org',
 	'edgetunnel.anycast.eu.org',
 ];
 let CMproxyIPs = [
 	//{ proxyIP: "proxyip.fxxk.dedyn.io", type: "US" },
 	//{ proxyIP: "proxyip.sg.fxxk.dedyn.io", type: "SG" },
+	//{ proxyIP: "proxyip.jp.fxxk.dedyn.io", type: "JP" },
+	//{ proxyIP: "proxyip.digitalocean.fxxk.dedyn.io", type: "HK" },
 ];
 let BotToken ='';
 let ChatID =''; 
