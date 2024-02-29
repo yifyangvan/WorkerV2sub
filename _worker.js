@@ -6,7 +6,6 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
 	'https://raw.githubusercontent.com/yifyangvan/WorkerVless2sub/main/yifcc.txt'//可参考内容格式 自行搭建。
 ];
 
