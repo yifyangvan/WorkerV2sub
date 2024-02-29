@@ -6,7 +6,7 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/yifyangvan/WorkerVless2sub/main/yifcc.txt'//可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/yifyangvan/WorkerV2sub/cme/yifcc.txt'//可参考内容格式 自行搭建。
 ];
 
 let DLS = 4;//速度下限
